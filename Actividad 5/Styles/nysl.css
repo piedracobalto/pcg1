@@ -1,0 +1,194 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+	font-style: normal;
+	font-size: 40px;
+	font-weight: bolder;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 1px;
+    
+	
+	
+}
+
+.abajo{
+	margin-top: 5%;
+}
+
+
+ol{
+	margin-left: 30%;
+}
+
+
+
+
+ul.alfa_numerico{
+	list-style-type: lower-alpha
+}
+
+.sacar_negrita {
+	font-weight: normal;
+}
+
+p {
+	font-size: 20px;
+}
+
+td,tr, th{
+	padding: 15px;
+	padding-right: 30px;
+	padding-left: 15px;
+	padding-top: 5px;
+
+}
+
+nav{
+	float: left;
+	
+	width: 30%;
+
+	margin-top: 40px;
+
+	margin-bottom: 100%;
+
+	display: block;
+
+}
+
+
+a{
+	padding: 10px 10px;
+	background-color: blue;
+	color: white;
+	border-radius: 5px 10px;
+}
+
+nav a{
+	text-decoration: none;
+	 
+
+}
+nav li{
+	list-style: none;
+	padding-bottom: 1em;
+
+}
+
+
+
+
+.portada_principal{
+	background-image: url('../Images/design1_image1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: block;
+	height: 200px;
+	max-height: 100%;
+	width: 100%;
+
+}
+
+.fondo_negro{
+	background-color: black;
+	height: 30px;
+	
+	
+}
+
+.fondo_negro2{
+	background-color: black;
+	height: 50px;
+	
+	
+}
+.letra_blanca{
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	margin: 0%;
+	
+}
+
+.centrado {
+	display: flex;
+	justify-content: space-around;
+	margin: 0%;
+}
+.logo{
+	height: 80px;
+	padding-right: 60px;
+	position: absolute;
+	top:185px;
+	right: 18px;
+}
+
+
+
+section{
+	float: left;
+	width: 60%;
+
+
+	
+}
+
+article{
+	
+	width:100%;
+box-sizing: border-box;
+height: 100px;
+}
+
+.link_actual{
+	font-weight:bold;
+	background-color: green !important;
+
+}
+
+li{
+	margin-bottom: 10px;
+
+}
+
+li.square{
+list-style-type: square;
+}
+
+li.circle{
+list-style-type: circle;
+}
+
+
+
+.mail{
+	padding: 0px 0px;
+	background-color: white;
+	color: blue;
+	
+}
+footer{
+	overflow: hidden;
+}
+
+.izquierda {
+	float: left;
+	text-align: left;
+	margin: 0%;
+	position: relative;
+	left: 0px;
+}
+
+.derecha {
+	float: right;
+	text-align: right;
+	margin: 0%;
+	position: relative;
+	right:30%;
+	top: 0px;
+}
